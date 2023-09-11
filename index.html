@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Komunikator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Pobierz pliki CSS Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+  <div id="myForm">
+   
+    <div class="message-wrapper">
+      <div class="message-box" id="message-box">
+
+        <div id="bottom-popup"></div>
+
+
+      </div>
+    </div>
+    <div class="bottom">
+    <button class="bottom-button" id="settings-button"><i class="fa fa-cog"></i></button>
+    <button class="bottom-button" id="emotes-button"><i class="fas fa-smile"></i> </button>
+    <form>
+    <input type="text" name="message" id="text-input" placeholder="Wpisz...">
+    <button type="submit" id="send-button" ><i class="fas fa-chevron-right"></i></button>
+    </form>
+  </div>
+</div>
+ 
+
+
+
+
+  <div class="dialog-container" id="settings-dialog">
+    <h2 style="color:white">Ustawienia</h2>
+    
+    <div class="user-settings">
+      <input type="color" id="color-picker" style="margin-right: 5px;">
+    <input type="text" name="nick" id="nick" placeholder="Nick">
+    </div>
+    <button id="close-btn"><i class="fas fa-times"></i></button><br>
+    <button type="submit" id="sett-button">Zatwierdź</button>
+  </div>
+
+
+
+  <div class="dialog-container" id="emotes-dialog">
+    
+    </div>
+
+
+
+
+
+
+  <script src="ap.js"></script>
+
+
+
+
+    
+
+<!-- Pobierz pliki JavaScript Bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

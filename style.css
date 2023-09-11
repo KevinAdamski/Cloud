@@ -1,0 +1,232 @@
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+#text-input {
+    display: inline;
+    display: block;
+    margin: 0 auto;
+}
+  
+#send-button {
+    display: inline;
+    margin: 0 auto;
+}
+  
+      
+      #myForm {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          background-color: #2a2a2a;
+          padding: 20px;
+          border-radius: 10px;
+  
+          
+        }
+       
+        #text-input[type="text"] {
+          background-color: #494949;
+          color: white;
+          display: inline;
+          flex: 1;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+  
+        #send-button[type="submit"] {
+          display: inline;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          background-color: #0400ff;
+          color: white;
+          margin-left: 10px;
+          width: 50px;
+        }
+        #send-button[type="submit"]:hover {
+          display: inline;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          background-color: #00b3ff;
+          color: white;
+          margin-left: 10px;
+          width: 50px;
+        }
+        .bottom-button{
+          display: inline;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          background-color: #0400ff;
+          color: white;
+          margin-right: 10px;
+          width: 50px;
+        }
+        .bottom-button:hover{
+          display: inline;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          background-color: #00b3ff;
+          color: white;
+          margin-right: 10px;
+          width: 50px;
+        }
+       
+        .message-wrapper {
+    position: relative;
+  }
+  
+  .message-box {
+    color: white;
+    top: -350px;
+    display: grid;
+    white-space: pre-wrap;
+    overflow-x: hidden;
+    width: 380px;
+    height: 300px;
+    max-width: 380px;
+    max-height: 300px;
+    overflow-y: scroll;
+    background-color: #494949;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .message-box p {
+    margin: 0;
+    padding: 5px;
+  }
+  .message-box::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .message-box::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .message-box::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 8px;
+  }
+  
+  
+  
+  .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dialog-container {
+          display: none;
+          position: fixed;
+          top: 55%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: #2a2a2a;
+          width: 300px;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        #close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    color: #5c5c5c;
+    cursor: pointer;
+    border: none;
+  }
+  #close-btn:hover{
+    filter: brightness(1.5);
+  
+  }
+  #nick[type="text"] {
+    background-color: #494949;
+    color: white;
+          flex: 1;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+  
+  input[type="color"] {
+   
+    width: 40px;
+    height: 40px;
+    
+  }
+  .user-settings{
+    display: flex;
+    align-items: center;
+  }
+  #sett-button{
+    padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          background-color: #0400ff;
+          color: white;
+          margin-right: 10px;
+          
+  }
+  #sett-button:hover{
+    padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          background-color: #00b3ff;
+          color: white;
+          margin-right: 10px;
+          
+  }
+  #bottom-popup {
+          display: none;
+          opacity: 80%;
+          position: fixed;
+          color: white;
+          top: 57%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: #000000;
+          width: 200px;
+          padding: 5px;
+          text-align: center;
+          cursor:pointer;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  .emote {
+    display: inline;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  
+  
+  .emote:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+  }
